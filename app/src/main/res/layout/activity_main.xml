@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "#1D4A5F"
+    tools:context="com.example.jaehoon.weltech.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="282dp"
+        android:layout_height="64dp"
+        android:background = "#0E2D3F"
+        android:drawableLeft = "@android:drawable/btn_star"
+        tools:layout_editor_absoluteY="240dp"
+        tools:layout_editor_absoluteX="64dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="281dp"
+        android:layout_height="65dp"
+        android:background = "#0E2D3F"
+        android:drawableLeft = "@android:drawable/btn_star"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="250dp"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="253dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="286dp"
+        android:layout_height="56dp"
+        android:text="L O G I N"
+        android:background = "#4DD8BF"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <Button
+        android:id="@+id/Forgot"
+        android:layout_width="293dp"
+        android:layout_height="59dp"
+        android:text="forgot password?"
+        android:background = "#1D4A5F"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="511dp" />
+</android.support.constraint.ConstraintLayout>
